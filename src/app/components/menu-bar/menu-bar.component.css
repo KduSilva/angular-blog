@@ -1,0 +1,62 @@
+.container__menu-bar.scrolled {
+  background-color: #111111; /* Cor preta */
+  transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.container__menu-bar > ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  background-color: inherit; /* Herda o fundo vermelho do contêiner pai */
+  list-style: none;
+  font-family: 'Handelson-Four', sans-serif; /* Fonte personalizada */
+  font-size: 1.2rem; /* Tamanho da fonte */
+  font-weight: 600; /* Peso da fonte */
+  color: var(--color-white); /* Cor do texto */
+}
+
+.container__menu-bar > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  background-color: inherit; /* Herda o fundo vermelho do contêiner pai */
+  list-style: none;
+  font-family: 'Handelson-Four', sans-serif; /* Fonte personalizada */
+  font-size: 1.2rem; /* Tamanho da fonte */
+  font-weight: 600; /* Peso da fonte */
+  color: var(--color-white); /* Garante que o texto seja branco */
+}
+
+.container__menu-bar > ul > li {
+  background-color: transparent; /* Remove qualquer fundo indesejado */
+  color: var(--color-white); /* Garante que o texto dos itens seja branco */
+}
+
+.container__menu-bar > ul > li > a {
+  background-color: transparent; /* Remove qualquer fundo indesejado */
+  color: var(--color-white); /* Garante que o texto dos links seja branco */
+  text-decoration: none; /* Remove sublinhado */
+}
+
+.container__menu-bar > ul > li > span {
+  color: var(--color-white); /* Define a cor branca para os separadores */
+  margin: 0 0.5rem; /* Adiciona espaçamento horizontal */
+  background-color: transparent; /* Garante que o fundo seja transparente */
+}
+
+.container__menu-bar {
+  background-color: var(--color-angular-red); /* Vermelho do logo Angular */
+  color: var(--color-white);
+  font-size: 1rem;
+  font-weight: 600;
+  height: auto; /* Ajusta a altura automaticamente */
+  padding: 1rem 2rem; /* Espaçamento interno */
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

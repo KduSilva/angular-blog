@@ -1,0 +1,19 @@
+.container__articles {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 1200px; /* Define uma largura máxima */
+  width: 100%; /* Garante que o contêiner ocupe 100% até o limite */
+  margin-left: auto; /* Centraliza horizontalmente */
+  margin-right: auto; /* Centraliza horizontalmente */
+
+}
+
+.header{
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}

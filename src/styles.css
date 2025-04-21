@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --color-angular-red: #DD0031; /* Vermelho do logo Angular */
+  --color-white: #ffffff;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box ;
+  background-color: #111111;
+  font-family: 'Handelson-Four', sans-serif;
+  color: white;
+}
+@font-face {
+  font-family: 'Handelson-Three';
+  src: url('/assets/fonts/zHandelson-Four.otf') format('opentype');
+}
+
+a {
+  text-decoration: none;
+}
