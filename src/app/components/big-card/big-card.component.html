@@ -1,21 +1,18 @@
 <div class="container__big-card">
   <a href="https://angular.dev/update-guide">
      <div Class="big-card__photo">
-       <img src="https://media.licdn.com/dms/image/v2/D4E12AQEQuHoHHLgLqw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1692734596025?e=2147483647&v=beta&t=GMjSFjYOQ0dJNE2bSNjfHRpVpy2PVQPggMXk88cz-50" alt="" height="300px" width="390px" srcset="">
+       <img src="{{ photoCover }}" alt="" height="300px" width="390px" srcset="">
      </div>
 
      <div class="big-card__title">
        <h1>
-         Saiu nova versao do Angular
+         {{ cardTitle }}
        </h1>
      </div>
     </a>
      <div class="big-card__description">
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-        Eos, natus libero officiis tempore sequi consectetur eveniet,
-         vel aliquid voluptatibus nemo velit itaque totam,
-         mollitia dolorum expedita dolore eligendi eius est!
+        {{ cardDescription }}
       </p>
      </div>
 
