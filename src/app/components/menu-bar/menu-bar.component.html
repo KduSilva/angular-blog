@@ -1,13 +1,17 @@
 <div class="container__menu-bar" [ngClass]="{'scrolled': isScrolled}">
   <ul>
-    <li><a href="">Linkedin</a></li>
-    <li><span>&middot;</span></li>
-    <li><a href="">GitHub</a></li>
-    <li><span>&middot;</span></li>
-    <li><a href="">Instagram</a></li>
-    <li><span>&middot;</span></li>
-    <li><a href="">YouTube</a></li>
-     <li><span>&middot;</span></li>
-    <li><a href="">Treads</a></li>
+    <li><a [routerLink]="['']">Home</a></li>
+
+    <li><a [routerLink]="['/content/1']">Conteúdo</a></li>
+
+    <li><a href="https://www.linkedin.com/in/carlos-eduardo-ferreira-da-silva-913b81299/?trk=opento_sprofile_topcard">Linkedin</a></li>
+
+    <li><a href="https://github.com/KduSilva">GitHub</a></li>
+
+    <li><a [routerLink]="['/instagram']">Instagram</a></li>
+
+    <li><a [routerLink]="['/youtube']">YouTube</a></li>
+
+    <li><a [routerLink]="['/treads']">Treads</a></li>
   </ul>
 </div>

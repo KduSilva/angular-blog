@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-  --color-angular-red: #DD0031; /* Vermelho do logo Angular */
-  --color-white: #ffffff;
+  --color-yellow: #f5ecc3;
+  --color-red:#ff7272; /* Vermelho do logo Angular */
 }
 
 
@@ -9,10 +9,10 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing:border-box ;
-  background-color: #111111;
+  box-sizing:border-box;
+  background-color: #2e2424; /* Força a cor de fundo */
   font-family: 'Handelson-Four', sans-serif;
-  color: white;
+
 }
 @font-face {
   font-family: 'Handelson-Three';

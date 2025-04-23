@@ -1,19 +1,15 @@
 <div class="container__big-card">
-  <a href="https://angular.dev/update-guide">
+  <a routerLink="[content,Id]">
      <div Class="big-card__photo">
-       <img src="{{ photoCover }}" alt="" height="300px" width="390px" srcset="">
+       <img src="{{ photoCover }}" alt=""  srcset="">
      </div>
 
      <div class="big-card__title">
-       <h1>
-         {{ cardTitle }}
-       </h1>
+       <h1 ><a routerLink="[content, Id]"> {{ cardTitle }} </a></h1>
      </div>
     </a>
      <div class="big-card__description">
-      <p>
-        {{ cardDescription }}
-      </p>
+      <p><a routerLink="[content, Id]"> {{cardDescription}} </a></p>
      </div>
 
 </div>

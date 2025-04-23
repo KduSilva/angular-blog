@@ -13,4 +13,10 @@ smallCardPhoto:string =""
 smallCardTitle:string =""
   @Input()
 smallCardDescription:string =""
+@Input()
+Id:string ="0"
+
+constructor() {
+
+}
 }

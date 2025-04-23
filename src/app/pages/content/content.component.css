@@ -1,0 +1,62 @@
+.container__content {
+
+  position: relative;
+  width: 100%;
+  min-height: 100vh; /* Garante que o contêiner ocupe pelo menos a altura da tela */
+  display: flex;
+  flex-direction: column; /* Organiza os elementos verticalmente */
+  justify-content: center;
+  align-items: center;
+  color: white; /* Garante que o texto seja visível */
+}
+
+.content__background img {
+
+  width: 600px;
+  height: 400px; /* Tamanho mínimo para o fundo */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.content__title {
+  padding: 15px; /* Espaçamento superior e inferior */
+  position: relative;
+  z-index: 2; /* Fica acima do plano de fundo */
+  text-align: center; /* Centraliza o texto */
+  margin-bottom: 20px;
+  background-color: transparent !important; /* Garante que o fundo seja transparente */
+}
+
+.content__title h1 {
+  padding: 15px; /* Espaçamento superior e inferior */
+  margin: 0 0 20px 0; /* Espaçamento inferior */
+  font-size: 2.5rem; /* Tamanho maior para o título principal */
+  font-weight: bold;
+  text-align: center;
+  color: #ff7272; /* Branco puro */
+  background-color: transparent !important; /* Garante que o fundo seja transparente */
+}
+
+.content__title h2 {
+  padding: 15px; /* Espaçamento superior e inferior */
+  margin: 10px 0; /* Espaçamento superior e inferior */
+  font-size: 1.5rem; /* Tamanho menor para subtítulos */
+  font-weight: 600;
+  text-align: center; /* Justifica o texto */
+  line-height: 1.5; /* Melhora o espaçamento entre linhas */
+  color: #ff7272; /* Um branco mais suave */
+  background-color: transparent !important; /* Garante que o fundo seja transparente */
+}
+
+.content__title p {
+  padding: 5px; /* Espaçamento superior e inferior */
+  margin: 10px 0;
+  font-size: 1.2rem; /* Tamanho padrão para parágrafos */
+  line-height: 1.8; /* Espaçamento maior para legibilidade */
+  text-align: center; /* Justifica o texto */
+  color: #fae99c; /* Um branco mais suave */
+  background-color: transparent !important; /* Garante que o fundo seja transparente */
+}

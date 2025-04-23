@@ -22,11 +22,13 @@
 }
 
 .small-card__title h1 {
+  color: var(--color-red); /* Cor do título */
   font-size: 1.5rem;
   margin: 0;
 }
 
 .small-card__description p {
+  color: var(--color-yellow); /* Cor da descrição */
   margin: 0;
   font-size: 1rem;
 }
@@ -34,6 +36,6 @@
 .container__small-card-separator {
   width: 100%;
   height: 2px; /* Espessura da linha */
-  background-color: #DD0031; /* Cor da linha */
+  background-color: var(--color-yellow); /* Cor da linha */
   margin: 16px 0; /* Espaço acima e abaixo da linha */
 }
